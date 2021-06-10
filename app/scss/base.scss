@@ -63,19 +63,6 @@ label {
   -webkit-tap-highlight-color: transparent;
 }
 
-.visually-hidden {
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  position: absolute;
-  clip: rect(0 0 0 0);
-}
-
-.container {
-  @extend %container;
-  max-width: 1560px;
-}
-
 header,
 main,
 footer {
